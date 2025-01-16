@@ -2,7 +2,7 @@
 import { connect } from 'cloudflare:sockets';
 
 let userID = '4747b4c5-6ffc-44ee-b963-bd8e588c5be5';
-let proxyIP = ['bpb.radically.pro', 'bpb.yousef.isegaro.com'];
+let proxyIP ;
 //let sub = '';
 let subConverter = 'SUBAPI.fxxk.dedyn.io';
 let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini";
@@ -14,7 +14,7 @@ let enableSocks = false;
 
 let noTLS = 'false';
 const expire = 4102329600;//2099-12-31
-let proxyIPs;
+let proxyIPs = ['bpb.radically.pro', 'bpb.yousef.isegaro.com'];
 let socks5s;
 let go2Socks5s = [
 	'*ttvnw.net',
